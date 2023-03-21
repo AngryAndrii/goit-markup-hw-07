@@ -19,7 +19,7 @@
     /* advantages section */
 
     .advantages-section {
-        width: 428px;
+        max-width: 100%;
         padding-top: 96px;
         padding-bottom: 96px;
     }
