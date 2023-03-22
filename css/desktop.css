@@ -23,6 +23,10 @@
         text-align: left;
     }
 
+    .description-paragraph {
+        font-weight: 400;
+    }
+
     /* advantages section */
 
 .advantages-section {
