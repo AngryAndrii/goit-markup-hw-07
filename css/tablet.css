@@ -1,7 +1,8 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
+        width: 100%;
     }
 
     .hero-section {
@@ -16,8 +17,7 @@
         line-height: 1.07;
     }
 
-    .advantages-title,
-    .card-title {
+    .advantages-title {
         text-align: left;
     }
 
@@ -43,5 +43,11 @@
     
     .advantages-list .advantages-title {
         margin-bottom: 8px;
+    }
+
+    /* our team section */
+
+    .card-title {
+        text-align: center;
     }
 }

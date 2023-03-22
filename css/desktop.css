@@ -1,7 +1,8 @@
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1158px;
+        max-width: 1158px;
+        width: 100%;
     }
 
     .hero-section {
@@ -14,14 +15,14 @@
         max-width: 496px;
     }
 
-    .advantages-title,
+    /* .advantages-title,
     .card-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
-    }
+    } */
 
     .description-paragraph {
         font-weight: 400;
@@ -57,4 +58,46 @@
     margin-bottom: 8px;
     border-radius: 4px;
 }
+
+/* what are we doing section */
+.doing-section {
+    display: block;
+    padding-bottom: 120px;
+}
+
+.doing-title {
+    margin-bottom: 72px;
+}
+
+.doing-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.doing-list .item {
+    flex-basis: calc((100% - 48px) / 2);
+}
+
+/* our team section */
+
+.team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--secondary-white-color);
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.social-media-link:hover, .social-media-link:focus {
+    background-color: var(--secondary-blue-color);
+}
+
+.social-media-icon {
+    fill: currentColor;
+}
+
 }

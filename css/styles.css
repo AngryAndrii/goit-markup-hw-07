@@ -25,7 +25,8 @@ h6,
 ul,
 div,
 section,
-p {
+p,
+img {
     margin: 0;
     padding: 0;
 }
@@ -64,6 +65,7 @@ img {
 }
 
 .container {
+    max-width: 428px;
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -91,7 +93,7 @@ img {
     text-transform: capitalize;
 }
 
-.advantages-title, .card-title {
+.advantages-title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(40 / 36);
@@ -168,3 +170,85 @@ img {
 .advantages-icon-thumb {
     display: none;
 }
+
+
+/* what are we doing section */
+
+.doing-section {
+    display: none;
+}
+
+/* our team section */
+
+.team-section {
+    padding-top: 96px;
+    padding-bottom: 128px;
+    background-color: var(--secondary-white-color);
+}
+
+.team-section .section-title {
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-list .item {
+    flex-basis: calc((100% - 72px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-descr {
+    padding: 32px 16px;
+    background-color: var(--primary-white-color);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+
+.description-paragraph {
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.social-media-list {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.social-media-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-blue-color);
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--duration) var(--timing-function);
+}
+
+.social-media-link:hover, .social-media-link:focus {
+    background-color: var(--secondary-blue-color);
+}
+
+.social-media-icon {
+    fill: currentColor;
+}
+
+
