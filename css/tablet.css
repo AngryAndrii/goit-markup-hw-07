@@ -47,7 +47,28 @@
 
     /* our team section */
 
+    .team-section {
+        padding-bottom: 104px;
+    }
+
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
     .card-title {
         text-align: center;
+    }
+
+    /* customers-section */
+
+    .customers-list {
+        column-gap: 24px;
     }
 }

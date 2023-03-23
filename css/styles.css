@@ -251,4 +251,49 @@ img {
     fill: currentColor;
 }
 
+/* customers-section */
+.customers-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.customers-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    justify-content: center;
+    column-gap: 16px;
+    row-gap: 72px;
+}
+
+.customers-list-item {
+    width: 190px;
+    /* width: calc((100%-16px) / 2); */
+    height: 88px;
+    /* flex-basis: calc((100% - 72px) / 4); */
+
+}
+
+.customers-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: var(--grey-icon-color);
+    border: 1px solid var(--grey-icon-color);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: color var(--duration) var(--timing-function), border-color var(--duration) var(--timing-function);
+}
+
+.customers-icon {
+    fill: currentColor;
+}
+
+.customers-link:is(:hover, :focus) {
+    color: var(--secondary-blue-color);
+    border-color: var(--secondary-blue-color);
+}
+
 
