@@ -21,6 +21,11 @@
         text-align: left;
     }
 
+    /* modal */
+    .modal {
+        padding: 72px 24px 24px 24px;
+    }
+
     /* advantages section */
     .advantages-section {
         max-width: 100%;
@@ -73,4 +78,49 @@
     }
 
     /* footer */
+    .footer-section {
+        padding-left: 96px;
+    }
+
+    .footer-container {
+        align-items: baseline;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-social-media-div {
+        margin: 0 auto 0 24px;
+    }
+
+    .footer-social-media-descr {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .footer-form {
+        flex-direction: row;
+        align-items: end;
+        row-gap: 16px;
+        margin: 72px auto 0 0;
+        width: auto;
+    }
+
+    .footer-form .form-field {
+        margin-bottom: 0;
+        width: auto;
+    }
+
+    .footer-form p {
+        text-align: left;
+    }
+
+    .footer-form input[type='email'] {
+        width: 264px;
+    }
+
+    .footer-form button[type='submit'] {
+        margin-left: 24px;
+    }
+
 }
