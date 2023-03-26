@@ -102,6 +102,44 @@ img {
     text-align: center;
 }
 
+/* button in index and portfolio */
+.hero-button {
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-blue-color);
+    border: 1px solid transparent;
+}
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background-color: var(--secondary-white-color);
+    color: var(--primary-blue-color);
+    border: 1px solid var(--grey-on-footer-color);
+    border-radius: 4px;
+}
+
+.button {
+    transition: background-color var(--duration) var(--timing-function), color var(--duration) var(--timing-function);
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.button:is(:hover, :focus) {
+    background-color: var(--secondary-blue-color);
+    color: var(--primary-white-color);
+    border: 1px solid transparent;
+}
+
 /* paragraphs */
 .description-paragraph {
     font-weight: 500;
