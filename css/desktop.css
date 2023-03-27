@@ -5,6 +5,14 @@
         width: 100%;
     }
 
+    .contact-list {
+        flex-direction: row;
+    }
+
+    .contact-list .item+.item {
+        margin-left: 40px;
+    }
+
     .hero-section {
         padding-top: 188px;
         padding-bottom: 188px;
