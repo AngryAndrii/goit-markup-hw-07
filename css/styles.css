@@ -149,6 +149,22 @@ img {
     color: var(--secondary-black-color);
 }
 
+/*--------------------------------------- mobile-header-------------------------------- */
+.header {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+.menu-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: palegoldenrod;
+    height: 300px;
+}
+
 /* hero */
 .hero-section {
     padding-top: 100px;

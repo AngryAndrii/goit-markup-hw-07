@@ -23,6 +23,47 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
+    <!-- хедер -->
+    <header class="header">
+      <div class="container flex-content">
+        <!-- головне меню навігації -->
+        <nav class="site-nav">
+          <a class="logo" href="./index.html"
+            ><span class="header-logo-span">Web</span>Studio</a
+          >
+          <ul class="list nav-list">
+            <li class="item">
+              <a href="./index.html" class="active link">Studio</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item"><a href="" class="link">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- телефон - емейл -->
+        <address class="address-list">
+          <ul class="list contact-list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+
+      <div class="menu-container" id="menu-container" data-menu>
+        <div class="navigations"></div>
+        <div class="contacts"></div>
+      </div>
+    </header>
+
+
+
     <main>
       <!-- hero -->
       <section class="section hero-section">
@@ -474,5 +515,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
