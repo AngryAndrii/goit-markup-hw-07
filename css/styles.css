@@ -425,7 +425,7 @@ img {
     padding-bottom: 100px;
     background-color: var(--primary-black-color);
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/hero-mobil.jpg);
     background-repeat: no-repeat;
     background-position: center; 
     background-color: var(--primary-black-color);
@@ -434,6 +434,30 @@ img {
     margin-right: auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+    /* -------------------------------------------------------------------- */
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url('../images/mobile/hero-mobil-2x.jpg');
+        }
+    }
+
+    @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url('../images/mobile/hero-mobil-3x.jpg');
+        }
+    }
+/* -------------------------------------------------------------------- */
+
+
 
 .hero-title {
     max-width: 320px;
