@@ -221,6 +221,10 @@
         padding-left: 96px;
     }
 
+    .footer-left-column {
+        align-items: flex-start;
+    }
+
     .footer-container {
         align-items: baseline;
         flex-direction: row;
