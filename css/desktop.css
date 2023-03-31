@@ -83,6 +83,9 @@
     .advantages-list .advantages-title {
         margin-bottom: 8px;
         font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
     }
 
     .advantages-icon-thumb {
@@ -116,6 +119,10 @@
     }
 
     /* our team section */
+
+    .team-section .container {
+        width: 1158px;
+    }
 
     .team-section {
         padding-top: 120px;
