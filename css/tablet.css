@@ -266,4 +266,29 @@
     .footer-form button[type='submit'] {
         margin-left: 24px;
     }
+
+    /*-------------------------------- portfolio------------------------------------ */
+        .projects-section {
+            padding-top: 71px;
+            padding-bottom: 96px;
+        }
+
+        .filter-list {
+            margin-bottom: 56px;
+            justify-content: center;
+        }
+
+        .projects-list {
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* align-items: center; */
+            column-gap: 24px;
+            row-gap: 72px;
+            margin: 0;
+        }  
+        
+        .projects-list>.item {
+            display: flex;
+            flex-basis: calc(100% / 2 - 24px);
+        }
 }
